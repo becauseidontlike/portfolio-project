@@ -21,6 +21,24 @@ h3 {
 img {
     width: 500px;
     height: auto;
+    padding-top: 50px;
+}
+
+footer {
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 30px;
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/063/005/original/background.jpg?1673801214");
+    background-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+a:hover {
+    color: orangered;
 }
 
 .front {
