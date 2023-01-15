@@ -1,8 +1,41 @@
-h1 {
+h1, h3 {
     font-family: 'Playfair Display', serif;
     font-weight: 600;
+    padding-bottom: 40px;
 }
 
-h2{
+h1 {
+    font-size: 70px;;
+}
+
+h2 {
     font-family: 'Karla', sans-serif;
+    margin-top: 90px;
+    padding-top: 130px;
+    font-size: 60px;
+}
+h3 {
+    font-size: 40px;
+}
+
+.front {
+text-align: center;
+background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/063/005/original/background.jpg?1673801214");
+background-size: 100%;
+
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 25px;
+    transition: all 200ms ease-in-out;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(215, 211, 205);
+    color: rgb(62, 48, 48);
+    border-color: rgb(98, 96, 94);
 }
