@@ -18,6 +18,11 @@ h3 {
     font-size: 40px;
 }
 
+img {
+    width: 500px;
+    height: auto;
+}
+
 .front {
     text-align: center;
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/063/005/original/background.jpg?1673801214");
@@ -37,4 +42,58 @@ h3 {
     background-color: rgb(215, 211, 205);
     color: rgb(62, 48, 48);
     border-color: rgb(98, 96, 94);
+}
+
+.project-name {
+    font-size: 45px;
+    padding-top: 0px;
+}
+
+.project-decsription {
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.container {
+    padding-top: 150px;
+}
+
+@media (max-width: 766px) {
+    .small-container {
+        text-align: center;
+    }
+
+    .project-name {
+        font-size: 40px;
+    }
+
+    .front {
+        font-size: smaller;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .container {
+        padding-top: 100px;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    p {
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 1.5;
+    }
 }
