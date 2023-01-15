@@ -14,6 +14,7 @@ h2 {
     padding-top: 200px;
     font-size: 60px;
 }
+
 h3 {
     font-size: 40px;
 }
@@ -21,7 +22,7 @@ h3 {
 img {
     width: 500px;
     height: auto;
-    padding-top: 50px;
+    border-radius: 4px;
 }
 
 footer {
@@ -53,13 +54,14 @@ a:hover {
     vertical-align: middle;
     padding: 15px 25px;
     transition: all 200ms ease-in-out;
+    color: rgb(82, 50, 34);
 }
 
 .btn:hover {
     cursor: pointer;
-    background-color: rgb(215, 211, 205);
-    color: rgb(62, 48, 48);
-    border-color: rgb(98, 96, 94);
+    background-color: #E5E2DD;
+    color: rgb(126, 72, 72);
+    border-color: rgb(83, 69, 56);
 }
 
 .project-name {
