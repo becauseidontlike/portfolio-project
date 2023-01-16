@@ -67,6 +67,7 @@ a:hover {
 .project-name {
     font-size: 45px;
     padding-top: 0px;
+    margin-top: 0px;
 }
 
 .project-decsription {
@@ -142,10 +143,19 @@ a:hover {
 
     .work-section {
         text-align: left;
-        padding-left: 10px;
+        padding-left: 20px;
     }
 
     .work-section h1 {
+        font-size: 40px;
+    }
+
+    .contact-section {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .contact-section h1 {
         font-size: 40px;
     }
     
