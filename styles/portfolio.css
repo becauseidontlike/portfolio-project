@@ -11,7 +11,7 @@ h1 {
 h2 {
     font-family: 'Karla', sans-serif;
     margin-top: 50px;
-    padding-top: 200px;
+    padding-top: 140px;
     font-size: 60px;
 }
 
@@ -80,6 +80,14 @@ a:hover {
     padding-top: 150px;
 }
 
+.about-section h1 {
+    font-size: 50px;
+}
+
+.about-section h3 {
+    font-size: 35px;
+}
+
 @media (max-width: 766px) {
     .small-container {
         text-align: center;
@@ -97,6 +105,22 @@ a:hover {
 
     .container {
         padding-top: 100px;
+    }
+
+    .my-desc {
+     text-align: justify;
+     margin-bottom: 10px;
+    }
+
+    .desc-font h1 {
+        font-size: 30px;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+    }
+    .desc-font h3 {
+        font-size: 25px;
+        padding-bottom: 10px;
+        margin-bottom: 0;
     }
 
     h1 {
