@@ -98,7 +98,11 @@ a:hover {
     font-size: 35px;
 }
 
- .work {
+.my-desc {
+    text-align: justify;
+}
+
+.work {
     padding-bottom: 10px;
 }
 
@@ -131,19 +135,22 @@ a:hover {
     }
 
     .desc-font h1 {
-        font-size: 30px;
-        padding-bottom: 10px;
-        margin-bottom: 0;
+        font-size: 20px;
     }
-    .desc-font h3 {
-        font-size: 25px;
-        padding-bottom: 10px;
-        margin-bottom: 0;
+
+    .about-section h1 {
+    font-size: 35px;
+    padding: 20px;
+    }
+    
+    .about-section h3 {
+    font-size: 25px;
+    padding: 20px;
     }
 
     .work-section {
         text-align: left;
-        padding-left: 20px;
+        padding-left: 15px;
     }
 
     .work-section h1 {
@@ -177,7 +184,7 @@ a:hover {
 
     h3 {
         font-size: 35px;
-    }
+    } 
 
     p {
         padding-left: 15px;
