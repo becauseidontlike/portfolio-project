@@ -38,8 +38,30 @@ a {
     color: brown;
 }
 
+i:hover,
 a:hover {
-    color: orangered;
+    color: rgb(233, 111, 67);
+}
+
+i {
+    color:rgb(126, 72, 72);
+    font-size: 35px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #E1D6D0;
+    border-radius: 50%;
+}
+
+.work-inq {
+    font-family: 'Playfair Display', serif;
+    background-color: #ebe2dd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 35px;
+}
+
+.work-inq a:hover {
+background-color: #E1D6D0;
 }
 
 .front {
@@ -90,12 +112,19 @@ a:hover {
     padding-left: 280px;
 }    
 
+
+.about-section a:hover {
+    background-color: #E5E2DD;
+}
+
 .about-section h1 {
     font-size: 50px;
+    text-align: left;
 }
 
 .about-section h3 {
     font-size: 35px;
+    text-align: left;
 }
 
 .my-desc {
@@ -132,6 +161,10 @@ a:hover {
     .my-desc {
      text-align: justify;
      margin-bottom: 10px;
+    }
+
+    .about-section {
+     text-align: center; 
     }
 
     .desc-font h1 {
@@ -173,6 +206,13 @@ a:hover {
     .work {
     padding-bottom: 0px;
     }
+
+    
+i {
+    font-size: 28px;
+    padding: 20px;
+    margin: 10px;
+}
 
     h1 {
         font-size: 55px;
