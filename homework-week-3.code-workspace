@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../week3/homework3/homework/homework-week-3"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "portfolio-project"
+	}
+}
