@@ -156,13 +156,13 @@ background-color: #E1D6D0;
     font-size: 30px;
 }
 
-@media (max-width: 989px) {
+@media (max-width: 991px) {
     .big-screen {
         display: none;
     }
 }
 
-@media (min-width: 989px) {
+@media (min-width: 992px) {
     .small-screen {
         display: none;
     }
