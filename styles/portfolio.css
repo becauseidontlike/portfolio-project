@@ -25,24 +25,6 @@ img {
     border-radius: 10px
 }
 
-.list-group {
-    color: black;
-    width: 60px;
-    text-align: center;
-}
-
-.mypic img {
-    border-radius: 10px;
-}
-
-footer {
-    font-size: 15px;
-    font-family: 'Playfair Display', serif;
-    padding-bottom: 30px;
-    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/063/005/original/background.jpg?1673801214");
-    background-size: 100%;
-}
-
 a {
     text-decoration: none;
     color: brown;
@@ -60,6 +42,32 @@ i {
     margin: 10px;
     background-color: #E1D6D0;
     border-radius: 50%;
+}
+
+footer {
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 30px;
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/063/005/original/background.jpg?1673801214");
+    background-size: 100%;
+}
+
+.right {
+    text-align: right; 
+    font-size: 13px;
+    justify-content: space-between;
+}
+
+.navbar-text {
+text-align: right;
+}
+
+.right:hover {
+    color: brown;
+}
+
+.mypic img {
+    border-radius: 10px;
 }
 
 .work-inq {
@@ -119,9 +127,8 @@ background-color: #E1D6D0;
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/063/005/original/background.jpg?1673801214");
     background-size: 100%;   
     padding-top: 180px;
-    padding-left: 280px;
+    padding-left: 180px;
 }    
-
 
 .about-section a:hover {
     background-color: #E5E2DD;
@@ -217,7 +224,6 @@ background-color: #E1D6D0;
     padding-bottom: 0px;
     }
 
-    
 i {
     font-size: 28px;
     padding: 20px;
