@@ -123,6 +123,12 @@ background-color: #E1D6D0;
 }
 .my-desc {
 padding-right: 15px;
+line-height: 1.8;
+}
+
+.col-md-6 {
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .container {
