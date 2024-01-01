@@ -171,14 +171,6 @@ footer {
   font-size: 30px;
 }
 
-.carousel-control-prev-icon button {
-  color: black;
-}
-
-.carousel-control-next-icon button {
-  color: black;
-}
-
 @media (max-width: 991px) {
   .big-screen {
     display: none;
