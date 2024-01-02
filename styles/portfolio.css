@@ -55,6 +55,7 @@ footer {
   padding-bottom: 30px;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/063/005/original/background.jpg?1673801214");
   background-size: 100%;
+  margin-top: auto;
 }
 
 .active {
@@ -134,6 +135,7 @@ footer {
 
 .container {
   padding-top: 150px;
+  flex-grow: 1;
 }
 
 .work-section,
