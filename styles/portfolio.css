@@ -133,6 +133,10 @@ footer {
   margin-bottom: 60px;
 }
 
+.newHeight {
+  padding-top: 20px;
+}
+
 .container {
   padding-top: 150px;
   flex-grow: 1;
