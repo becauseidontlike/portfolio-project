@@ -49,6 +49,14 @@ i {
   border-radius: 50%;
 }
 
+.card-header {
+  background-color: #ebe2dd;
+}
+
+.card-body {
+  background-color: #e6e5e5;
+}
+
 footer {
   font-size: 15px;
   font-family: "Playfair Display", serif;
@@ -83,7 +91,7 @@ footer {
 }
 
 .work-inq a:hover {
-  background-color: #e1d6d0;
+  background-color: #e5e2dd;
 }
 
 .front {
